@@ -16,7 +16,7 @@ def _(mo):
         r"""
         # Finite-width NTKs, from diagrams to five million networks
 
-        ![Headline evidence](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/main/reports/reproduction/images/claim3_exact_scale.svg)
+        ![Headline evidence](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/main/reports/reproduction/images/claim3_exact_scale.svg)
 
         The infinite-width NTK is the leading term of a `1/n` expansion. This
         notebook explains the already-computed evidence; it does **not** rerun the
@@ -57,7 +57,7 @@ def _(mo):
         r"""
         ## The five-diagram recursion
 
-        ![Five diagrams](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/main/reports/reproduction/images/claim2_five_diagrams.svg)
+        ![Five diagrams](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/main/reports/reproduction/images/claim2_five_diagrams.svg)
 
         The order-`1/n` NTK-mean correction has five admissible terms: quadratic
         `K1` and `Theta1`, plus quartic `V`, `D`, and `F`. The executable verifier
@@ -74,12 +74,12 @@ def _(mo):
         r"""
         ## Two source-scale empirical checks
 
-        ![GeLU correction](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/main/reports/reproduction/images/claim4_gelu_correction.svg)
+        ![GeLU correction](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/main/reports/reproduction/images/claim4_gelu_correction.svg)
 
         Four fresh GeLU measurements, each averaging 100,000 networks, follow the
         source Figure 2 first-order correction rather than the infinite-width line.
 
-        ![Depth stability](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/main/reports/reproduction/images/claim5_depth_stability.svg)
+        ![Depth stability](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/main/reports/reproduction/images/claim5_depth_stability.svg)
 
         At width 200 and `C_W=2`, the depth-1-to-30 slope is
         `0.679499 ± 0.012189` against `0.669128` predicted. Low/high controls decay
@@ -103,7 +103,7 @@ def _(mo):
 
         The command is expensive: it includes a five-million-network sweep and
         should run on the campaign's HF `cpu-upgrade` target. For the full evidence,
-        read the [visual report](https://github.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/blob/main/reports/reproduction/report.md)
+        read the [visual report](https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/blob/main/reports/reproduction/report.md)
         and its linked raw JSON, checkers, controls, assumptions, and limitations.
         """
     )

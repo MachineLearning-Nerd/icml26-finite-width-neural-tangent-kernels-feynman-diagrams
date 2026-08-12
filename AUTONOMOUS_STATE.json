@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "paper": "Finite-Width Neural Tangent Kernels from Feynman Diagrams",
+  "arxiv": "2508.11522v4",
+  "authors": ["Max Guillen", "Philipp Misof", "Jan E. Gerken"],
+  "phase": "claim_audit_and_release_documentation_complete",
+  "next_action": "publish_clean_branch_names_then_verify_live_repository",
+  "claim_status": {
+    "1": "verified_finite_rule_reconstruction",
+    "2": "verified_five_diagram_certificate",
+    "3": "verified_symbolic_and_finite_empirical_contract",
+    "4": "verified_four_representative_gelu_widths",
+    "5": "verified_finite_critical_depth_contract"
+  },
+  "former_branch_count": 7,
+  "target_branch_count": 7,
+  "publication_allowed": true,
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
+  "compute_policy": "Hugging Face cpu-upgrade with 8-CPU quota and no GPU",
+  "documentation": {
+    "readme": "complete",
+    "branch_audit": "complete",
+    "status": "complete",
+    "citation_and_thank_you": "complete",
+    "repository_rename": "pending_publication_verification"
+  }
+}

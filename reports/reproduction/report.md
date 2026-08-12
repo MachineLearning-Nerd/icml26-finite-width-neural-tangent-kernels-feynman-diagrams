@@ -99,8 +99,8 @@ therefore combines symbolic reconstruction with source-scale corroboration. Clai
 machine-checkable reconstruction of the published finite graphical rules, not a
 formal proof assistant certificate for every all-orders statement.
 
-Experiment lineage: [five-diagram baseline](https://github.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/tree/orx/audited-five-diagram-baseline),
-[symbolic rules and cancellation](https://github.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/tree/orx/symbolic-rules-and-scale-invariance-proofs),
-[critical depth stability](https://github.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/tree/orx/paper-scale-critical-depth-stability),
-[GeLU correction](https://github.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/tree/orx/source-faithful-gelu-finite-width-correction), and
-[five-million cancellation](https://github.com/MachineLearning-Nerd/icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams/tree/orx/five-million-scale-invariant-cancellation).
+Experiment lineage: [five-diagram baseline](https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/tree/audit/five-diagram-baseline),
+[symbolic rules and cancellation](https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/tree/audit/symbolic-rules-scale-invariance),
+[critical depth stability](https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/tree/audit/paper-scale-critical-depth),
+[GeLU correction](https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/tree/audit/gelu-finite-width-correction), and
+[five-million cancellation](https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams/tree/audit/five-million-cancellation).
