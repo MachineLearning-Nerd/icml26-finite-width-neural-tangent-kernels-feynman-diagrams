@@ -38,7 +38,7 @@ identity set will be checked.
 - [x] Each former branch has one descriptive target name.
 - [x] Existing reports and notebook navigation use the target repository name and clean branch names.
 - [x] Seven former branch tips are present locally and ready for publication.
-- [ ] Normalize reachable commit author and committer identities.
-- [ ] Rename the GitHub repository.
-- [ ] Push the clean branch refs and remove the former `orx/*` refs.
-- [ ] Verify the default branch, branch count, README blob, stale refs, and live identity set through GitHub.
+- [x] Normalize reachable commit author and committer identities.
+- [x] Rename the GitHub repository.
+- [x] Push the clean branch refs and remove the former `orx/*` refs.
+- [x] Verify the default branch, branch count, README blob, stale refs, and live identity set through GitHub.
