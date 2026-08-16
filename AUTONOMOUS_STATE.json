@@ -1,10 +1,15 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "paper": "Finite-Width Neural Tangent Kernels from Feynman Diagrams",
   "arxiv": "2508.11522v4",
-  "authors": ["Max Guillen", "Philipp Misof", "Jan E. Gerken"],
-  "phase": "published_and_live_verified",
-  "next_action": "continue_collection_with_next_repository",
+  "openreview": "SOlPHMdSY3",
+  "authors": [
+    "Max Guillen",
+    "Philipp Misof",
+    "Jan E. Gerken"
+  ],
+  "phase": "dossier_published_finite_contracts",
+  "next_action": "update_collection_trackers_and_continue_with_next_repository",
   "claim_status": {
     "1": "verified_finite_rule_reconstruction",
     "2": "verified_five_diagram_certificate",
@@ -14,24 +19,56 @@
   },
   "former_branch_count": 7,
   "target_branch_count": 7,
+  "final_branch_count": 8,
   "publication_allowed": true,
+  "old_repository": "icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
-  "compute_policy": "Hugging Face cpu-upgrade with 8-CPU quota and no GPU",
+  "compute_policy": "Hugging Face cpu-upgrade with 8-CPU quota, 32 GB contract, and no GPU",
   "documentation": {
     "readme": "complete",
     "branch_audit": "complete",
     "status": "complete",
+    "claim_evidence": "complete",
+    "source_audit": "complete",
+    "environment": "complete",
+    "report": "complete",
+    "claims_json": "complete",
     "citation_and_thank_you": "complete",
+    "evidence_manifest": "complete",
+    "final_verifier": "complete",
     "repository_rename": "complete"
+  },
+  "evidence": {
+    "cumulative_run_sha": "4236e14fff388b849196a0f53b77c39d16b88209",
+    "cumulative_runtime_seconds": 5225.6622065010015,
+    "independent_rerun_sha": "0955d05f3d38f60adc356c3ea8fcf4fce3adb2b2",
+    "independent_rerun_id": "7a120817-70c1-459e-87ff-bdb96cca0e91",
+    "independent_rerun_scheduler": "3h02m",
+    "historical_judged_score": "0/10",
+    "forecast": "8-10/10 only; not a judge result"
+  },
+  "publication_checkpoint": {
+    "pre_dossier_main": "a979bec40f514449150a117dc67f345349e154f5",
+    "dossier_commit": "bab44242e3d0f75bb6c605216ba3ab9a342e0480",
+    "dossier_commit_message": "docs(audit): publish finite-width NTK dossier",
+    "recovery_bundle_sha256": "c1d072b3ebd4c70e12d87d39103c4524df3f2a2d0df72f1c288e9e74f3aea141",
+    "local_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=13 before state update",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=14",
+    "fresh_clone_path": "/tmp/icml-ntk-final-verify.plqdPe"
   },
   "live_verification": {
     "repository_name": "icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
     "default_branch": "main",
+    "main_commit": "bab44242e3d0f75bb6c605216ba3ab9a342e0480",
     "branch_count": 8,
     "descriptive_branch_count": 7,
     "old_orx_branches_present": false,
     "reachable_commit_identity": "MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>",
-    "main_commit_before_checkpoint": "a211458505f7efbfba0d2560d1bd9e94803ff306",
-    "readme_blob": "760a13af41f306474656eedbeef4c9bbba9efffb"
+    "github_description": "ICML 2026 scoped reproduction audit for Finite-Width Neural Tangent Kernels from Feynman Diagrams",
+    "github_homepage": "https://arxiv.org/abs/2508.11522"
+  },
+  "attribution": {
+    "name": "MachineLearning-Nerd",
+    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
   }
 }
