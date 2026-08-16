@@ -51,15 +51,16 @@
     "pre_dossier_main": "a979bec40f514449150a117dc67f345349e154f5",
     "dossier_commit": "bab44242e3d0f75bb6c605216ba3ab9a342e0480",
     "dossier_commit_message": "docs(audit): publish finite-width NTK dossier",
+    "state_commit": "b34905f9925c7f487723201f81313efba57d65b1",
     "recovery_bundle_sha256": "c1d072b3ebd4c70e12d87d39103c4524df3f2a2d0df72f1c288e9e74f3aea141",
     "local_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=13 before state update",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=14",
-    "fresh_clone_path": "/tmp/icml-ntk-final-verify.plqdPe"
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=15",
+    "fresh_clone_path": "/tmp/icml-ntk-final-state-verify.NF3sYJ"
   },
   "live_verification": {
     "repository_name": "icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
     "default_branch": "main",
-    "main_commit": "bab44242e3d0f75bb6c605216ba3ab9a342e0480",
+    "last_verified_main_commit": "b34905f9925c7f487723201f81313efba57d65b1",
     "branch_count": 8,
     "descriptive_branch_count": 7,
     "old_orx_branches_present": false,
