@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "repository": "MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
+  "paper": "Finite-Width Neural Tangent Kernels from Feynman Diagrams",
+  "branch_contract": {
+    "default": "main",
+    "total": 8,
+    "descriptive": 7,
+    "old_prefix_absent": "orx/"
+  },
+  "aggregates": {
+    "release/space_upload_allowlist.json": "f6dd13c32382d48639d290ebe4e6b2e994e8257a2b57fca79204ee2d3ec00fd8",
+    "space/historical_judged_manifest.sha256": "3c67c8888bb0d9bfe5fa4387fc667b282f6db89ccf6402e1d4d122beeb6dd2a7",
+    "space/data/cumulative_run.json": "40df913db734bc65b7b4da5913f929e1be9a49d71b30d91caac6fcb80a790a52",
+    "space/data/release_rerun_summary.json": "ff7fa0646ec47f5ce732800f38dd388ba6ceab59a3a8f7eadb76715e34dc27f3",
+    "space/logbook.json": "3e9465f6cfbc17e89af735f2ce030cf460873de5d4b29d8b2103188faf9e1029"
+  },
+  "files": [
+    {"path": "README.md", "sha256": "493f522988fc3b77b96a4481b2074f77f8350757289c88d8e5c3cd7b08d7c262"},
+    {"path": "STATUS.md", "sha256": "1073e36a96dd71a2252afa833991361751235028cc9374130e0ddf364ce55362"},
+    {"path": "branch-audit.md", "sha256": "77e283287b4aadcd5eab1667570218cab40e1c79876662c4fce604c23c7a676c"},
+    {"path": "BRANCH_AUDIT.md", "sha256": "c014c0187b4a9df1ba5454c98019fc6f02e115711e6d7f87421f1d08905bbdb7"},
+    {"path": "AUTHOR_THANK_YOU.md", "sha256": "8189cb8c360218ef893a15207b6bd0beb8f1301705572b4ae7e66caeaf0639f4"},
+    {"path": "CITATION.cff", "sha256": "d677cbdc710a7b8bd03a37a08c4e4e0df04fdd38803e2744bbb0df812365541a"},
+    {"path": "CLAIM_EVIDENCE.md", "sha256": "35724186925815502e7ad94ba2b08095b4ee9f2c9fd545820f154fcb7a737817"},
+    {"path": "ENVIRONMENT.md", "sha256": "7ff60397778feab8ad15a01cc4e8335c95a85e8582a0b8b75ab446d2553b2fe2"},
+    {"path": "REPORT.md", "sha256": "bf85ad6dcc1e2ae439601428bab454359cf52fe6e364a3c9ca413218fefa5d4e"},
+    {"path": "SOURCE_AUDIT.md", "sha256": "31dc4f8f858d454a589d3135dbabd964514b99b2b791c4826613a071602854bb"},
+    {"path": "claims.json", "sha256": "8299402bbb928cbaf5ed488cdadd1f3a166f52faeec2f6c1880a2f9135a0d037"},
+    {"path": "verify_final.py", "sha256": "890b0a3f82dbe817e67536eff822b6615bf8d6a604ffc4fc50993c6287cf4f23"},
+    {"path": "reproduction/release_gate.py", "sha256": "30d05e62c4676b7a4b49766e2abe9aae601546bc09bf04679acdde834a574383"},
+    {"path": "release/space_upload_allowlist.json", "sha256": "f6dd13c32382d48639d290ebe4e6b2e994e8257a2b57fca79204ee2d3ec00fd8"},
+    {"path": "space/data/cumulative_run.json", "sha256": "40df913db734bc65b7b4da5913f929e1be9a49d71b30d91caac6fcb80a790a52"},
+    {"path": "space/data/release_rerun_summary.json", "sha256": "ff7fa0646ec47f5ce732800f38dd388ba6ceab59a3a8f7eadb76715e34dc27f3"},
+    {"path": "space/historical_judged_manifest.sha256", "sha256": "3c67c8888bb0d9bfe5fa4387fc667b282f6db89ccf6402e1d4d122beeb6dd2a7"},
+    {"path": "space/logbook.json", "sha256": "3e9465f6cfbc17e89af735f2ce030cf460873de5d4b29d8b2103188faf9e1029"}
+  ]
+}

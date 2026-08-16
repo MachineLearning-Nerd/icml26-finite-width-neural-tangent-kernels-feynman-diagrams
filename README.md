@@ -30,6 +30,39 @@ by 1.34–8.30%. The evaluator-visible artifact was published to the
 [DineshAI/SOlPHMdSY3 Hugging Face Space](https://huggingface.co/spaces/DineshAI/SOlPHMdSY3/tree/beea5e8b4af3e149d85796bd4922b6d03339a6ac)
 at immutable revision `beea5e8b4af3e149d85796bd4922b6d03339a6ac`.
 
+## Audit dossier
+
+The repository-level audit record is split into small, reviewable documents:
+
+- [CLAIM_EVIDENCE.md](CLAIM_EVIDENCE.md) maps every paper claim to its
+  implementation, checker, negative control, decisive output, and scope
+  boundary.
+- [SOURCE_AUDIT.md](SOURCE_AUDIT.md) records the paper identity, source
+  anchors, immutable source hashes, and repository rename.
+- [ENVIRONMENT.md](ENVIRONMENT.md) records the locked command, accepted runs,
+  resource contract, estimator substitutions, and rerun policy.
+- [REPORT.md](REPORT.md) gives the concise result, historical score, forecast
+  boundary, and limitations.
+- [BRANCH_AUDIT.md](BRANCH_AUDIT.md) records the final branch topology,
+  former-to-clean names, exact tips, and attribution policy.
+- [claims.json](claims.json) is the machine-readable claim status ledger.
+- [CITATION.cff](CITATION.cff) and [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md)
+  provide citation metadata and the thank-you note to the paper authors.
+- [EVIDENCE_MANIFEST.json](EVIDENCE_MANIFEST.json) hashes the dossier and
+  immutable evidence inputs.
+
+The canonical evaluator-visible evidence is under
+[space/](space/): its claim pages, raw JSON, source archive manifest, and
+release surface are the reader-facing record. The root [pages/](pages/) notes
+are earlier source-contract notes retained for provenance and are not silently
+treated as a replacement for the verified <code>space/</code> pages.
+
+Run the repository-level final check with:
+
+~~~bash
+PYTHONDONTWRITEBYTECODE=1 python3 verify_final.py
+~~~
+
 ## How each claim is produced
 
 Every full run uses the same locked entrypoint:

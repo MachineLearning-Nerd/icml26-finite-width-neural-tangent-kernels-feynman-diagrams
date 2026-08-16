@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "paper": "Finite-Width Neural Tangent Kernels from Feynman Diagrams",
+  "source": "arXiv:2508.11522v4",
+  "claims": [
+    {
+      "id": 1,
+      "status": "VERIFIED_FINITE_RULE_RECONSTRUCTION",
+      "paper_target": "Section 4 graphical rules and D/F/A/B order-1/n recursions",
+      "implementation": [
+        "reproduction/diagram_rules.py",
+        "reproduction/claim1_verifier.py"
+      ],
+      "checker": [
+        "reproduction/claim1_verifier.py"
+      ],
+      "controls": [
+        "invalid unpaired color is rejected"
+      ],
+      "certificate_sha256": "e6fa6bc262d4c3654ca9268e0204356dc3f8f07f7c3620e81aa2ba6394fcf889"
+    },
+    {
+      "id": 2,
+      "status": "VERIFIED_FIVE_DIAGRAM_CERTIFICATE",
+      "paper_target": "Section 5.1 five-diagram order-1/n NTK-mean recursion",
+      "implementation": [
+        "reproduction/claim2_verifier.py"
+      ],
+      "checker": [
+        "reproduction/claim2_independent_checker.py"
+      ],
+      "controls": [
+        "reproduction/claim2_negative_control.py drops the quartic F vertex and exits nonzero"
+      ],
+      "certificate_sha256": "3e60f600b5a623dbf3f5301bc1c59d848c12a4a95c1742ee26f34abf91ae7141"
+    },
+    {
+      "id": 3,
+      "status": "VERIFIED_SYMBOLIC_AND_FINITE_EMPIRICAL_CONTRACT",
+      "paper_target": "Positive-homogeneous bias-free diagonal cancellation",
+      "implementation": [
+        "reproduction/claim3_verifier.py",
+        "reproduction/claim3_paper_scale.py"
+      ],
+      "checker": [
+        "reproduction/claim3_independent_checker.py",
+        "reproduction/claim3_empirical_independent_checker.py"
+      ],
+      "controls": [
+        "reproduction/claim3_negative_control.py",
+        "reproduction/claim3_empirical_negative_control.py"
+      ],
+      "certificate_sha256": "9cb51c72e4e39a0129a9f0ab6163d9c70acc7fac79981798b8f0e4af8e1b9153"
+    },
+    {
+      "id": 4,
+      "status": "VERIFIED_FOUR_REPRESENTATIVE_GELU_WIDTHS",
+      "paper_target": "Four-layer GeLU first-order correction above width 20",
+      "implementation": [
+        "reproduction/claim4_gelu.py"
+      ],
+      "checker": [
+        "reproduction/claim4_independent_checker.py"
+      ],
+      "controls": [
+        "infinite-width substitution fails the first-order contract"
+      ],
+      "source_pdf_curve_sha256": [
+        "865845aaa9c0f203e9fc041c7d5841c1548bc5d511abe55a8c9f9eef782683d6",
+        "6623a42cf5703a8374603e190beef9f6e267a9a1dd3f13a536ec94e7ba0fceb5"
+      ]
+    },
+    {
+      "id": 5,
+      "status": "VERIFIED_FINITE_CRITICAL_DEPTH_CONTRACT",
+      "paper_target": "Width-200 ReLU critical C_W=2 stability through depth 30",
+      "implementation": [
+        "reproduction/claim5_stability.py"
+      ],
+      "checker": [
+        "reproduction/claim5_independent_checker.py"
+      ],
+      "controls": [
+        "low and high C_W regimes must show the intended exponential controls"
+      ]
+    }
+  ],
+  "boundary": "Finite contracts and source-faithful experiments are verified; universal theorem claims and author endorsement are not inferred."
+}

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this audit, cite both this repository and the original paper."
+title: "Finite-Width Neural Tangent Kernels from Feynman Diagrams: Independent Reproduction Audit"
+type: software
+version: "1.0.0"
+date-released: 2026-08-17
+authors:
+  - family-names: MachineLearning-Nerd
+    given-names: ""
+    website: https://github.com/MachineLearning-Nerd
+repository-code: https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams
+url: https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams
+keywords:
+  - neural tangent kernels
+  - finite-width corrections
+  - Feynman diagrams
+  - reproducibility
+  - ICML 2026
+references:
+  - type: article
+    authors:
+      - family-names: Guillen
+        given-names: Max
+      - family-names: Misof
+        given-names: Philipp
+      - family-names: Gerken
+        given-names: Jan E.
+    title: "Finite-Width Neural Tangent Kernels from Feynman Diagrams"
+    year: 2026
+    doi: 10.48550/arXiv.2508.11522
+    url: https://arxiv.org/abs/2508.11522v4
