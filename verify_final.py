@@ -28,7 +28,7 @@ EXPECTED_BRANCHES = {
 }
 EXPECTED_IDENTITY = (
     "MachineLearning-Nerd",
-    "37579156+MachineLearning-Nerd@users.noreply.github.com",
+    "MachineLearning-Nerd@users.noreply.github.com",
 )
 FIXED_COMMAND = (
     "uv sync --frozen --all-extras && "
@@ -142,6 +142,8 @@ def main() -> int:
         "REPORT.md",
         "SOURCE_AUDIT.md",
         "claims.json",
+        "reproduction_verdicts.json",
+        "AUTONOMOUS_STATE.json",
         "EVIDENCE_MANIFEST.json",
         "verify_final.py",
         "reproduction/release_gate.py",
@@ -179,6 +181,35 @@ def main() -> int:
             require(sha256(path) == expected, f"manifest hash mismatch: {relative}")
 
     claims = load_json("claims.json")
+    require(
+        claims.get("repository") ==
+        "MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
+        "claims repository marker mismatch",
+    )
+    require(
+        claims.get("overall_verdict") ==
+        "VERIFIED_SCOPED_FINITE_CONTRACTS_NOT_UNIVERSAL"
+        and claims.get("publication_allowed") is False
+        and claims.get("score_claim") is False
+        and claims.get("official_author_endorsement") is False,
+        "claims publication boundary mismatch",
+    )
+    reproduction = load_json("reproduction_verdicts.json")
+    require(
+        reproduction.get("repository") ==
+        "MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams"
+        and reproduction.get("overall_verdict") ==
+        "VERIFIED_SCOPED_FINITE_CONTRACTS_NOT_UNIVERSAL"
+        and reproduction.get("publication_allowed") is False
+        and reproduction.get("score_claim") is False
+        and reproduction.get("official_author_endorsement") is False,
+        "reproduction publication boundary mismatch",
+    )
+    require(
+        [(row.get("id"), row.get("status")) for row in reproduction.get("claims", [])]
+        == [(row.get("id"), row.get("status")) for row in claims.get("claims", [])],
+        "reproduction claim statuses mismatch",
+    )
     expected_statuses = {
         1: "VERIFIED_FINITE_RULE_RECONSTRUCTION",
         2: "VERIFIED_FIVE_DIAGRAM_CERTIFICATE",
@@ -193,6 +224,18 @@ def main() -> int:
             actual_claims.get(claim_id, {}).get("status") == status,
             f"claims.json status mismatch for Claim {claim_id}",
         )
+
+    state = load_json("AUTONOMOUS_STATE.json")
+    require(
+        state.get("phase") == "published_and_verified"
+        and state.get("publication_allowed") is False
+        and state.get("overall_verdict") ==
+        "VERIFIED_SCOPED_FINITE_CONTRACTS_NOT_UNIVERSAL"
+        and state.get("score_claim") is False
+        and state.get("official_author_endorsement") is False
+        and state.get("branch_count") == len(EXPECTED_BRANCHES),
+        "state publication boundary mismatch",
+    )
 
     cumulative = load_json("space/data/cumulative_run.json")
     require(cumulative.get("passed") is True, "cumulative run did not pass")

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
+  "paper": {
+    "title": "Finite-Width Neural Tangent Kernels from Feynman Diagrams",
+    "arxiv": "2508.11522v4",
+    "openreview": "SOlPHMdSY3",
+    "authors": [
+      "Max Guillen",
+      "Philipp Misof",
+      "Jan E. Gerken"
+    ]
+  },
+  "overall_verdict": "VERIFIED_SCOPED_FINITE_CONTRACTS_NOT_UNIVERSAL",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "claims": [
+    {
+      "id": 1,
+      "status": "VERIFIED_FINITE_RULE_RECONSTRUCTION",
+      "production_path": "reproduction/diagram_rules.py plus reproduction/claim1_verifier.py",
+      "scope": "Finite graphical-rule/signature reconstruction and invalid-color control; not every all-orders theorem consequence.",
+      "evidence": [
+        "space/data/cumulative_run.json",
+        "reproduction/claim1_verifier.py",
+        "reproduction/diagram_rules.py"
+      ]
+    },
+    {
+      "id": 2,
+      "status": "VERIFIED_FIVE_DIAGRAM_CERTIFICATE",
+      "production_path": "reproduction/claim2_verifier.py -> claim2_independent_checker.py -> claim2_negative_control.py",
+      "scope": "Exactly five finite order-1/n diagrams and coefficients; not every tensor derivation.",
+      "evidence": [
+        "space/data/cumulative_run.json",
+        "reproduction/claim2_verifier.py",
+        "reproduction/claim2_independent_checker.py"
+      ]
+    },
+    {
+      "id": 3,
+      "status": "VERIFIED_SYMBOLIC_AND_FINITE_EMPIRICAL_CONTRACT",
+      "production_path": "reproduction/claim3_verifier.py plus claim3_paper_scale.py and independent empirical checker",
+      "scope": "Bias-free positive-homogeneous symbolic cancellation plus five-million finite network contract; universal theorem is not inferred.",
+      "evidence": [
+        "space/data/cumulative_run.json",
+        "reproduction/claim3_verifier.py",
+        "reproduction/claim3_paper_scale.py"
+      ]
+    },
+    {
+      "id": 4,
+      "status": "VERIFIED_FOUR_REPRESENTATIVE_GELU_WIDTHS",
+      "production_path": "reproduction/claim4_gelu.py -> claim4_independent_checker.py",
+      "scope": "Source-faithful four-layer GeLU correction at widths 32, 56, 100, 220 with 100,000 samples each; not every source marker.",
+      "evidence": [
+        "space/data/cumulative_run.json",
+        "reproduction/claim4_gelu.py",
+        "reproduction/claim4_independent_checker.py"
+      ]
+    },
+    {
+      "id": 5,
+      "status": "VERIFIED_FINITE_CRITICAL_DEPTH_CONTRACT",
+      "production_path": "reproduction/claim5_stability.py -> claim5_independent_checker.py",
+      "scope": "Width-200, depth-1..30 finite critical C_W=2 contract with low/high controls; not a universal asymptotic proof.",
+      "evidence": [
+        "space/data/cumulative_run.json",
+        "reproduction/claim5_stability.py",
+        "reproduction/claim5_independent_checker.py"
+      ]
+    }
+  ]
+}

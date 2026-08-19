@@ -1,7 +1,12 @@
 {
   "schema_version": 2,
+  "repository": "MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
   "paper": "Finite-Width Neural Tangent Kernels from Feynman Diagrams",
   "source": "arXiv:2508.11522v4",
+  "overall_verdict": "VERIFIED_SCOPED_FINITE_CONTRACTS_NOT_UNIVERSAL",
+  "publication_allowed": false,
+  "score_claim": false,
+  "official_author_endorsement": false,
   "claims": [
     {
       "id": 1,

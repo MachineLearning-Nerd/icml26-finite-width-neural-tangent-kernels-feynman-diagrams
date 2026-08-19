@@ -8,7 +8,7 @@
     "Philipp Misof",
     "Jan E. Gerken"
   ],
-  "phase": "dossier_published_finite_contracts",
+  "phase": "published_and_verified",
   "next_action": "update_collection_trackers_and_continue_with_next_repository",
   "claim_status": {
     "1": "verified_finite_rule_reconstruction",
@@ -20,7 +20,24 @@
   "former_branch_count": 7,
   "target_branch_count": 7,
   "final_branch_count": 8,
-  "publication_allowed": true,
+  "publication_allowed": false,
+  "overall_verdict": "VERIFIED_SCOPED_FINITE_CONTRACTS_NOT_UNIVERSAL",
+  "score_claim": false,
+  "official_author_endorsement": false,
+  "branch_count": 8,
+  "dossier_files": [
+    "CLAIM_EVIDENCE.md",
+    "SOURCE_AUDIT.md",
+    "ENVIRONMENT.md",
+    "REPORT.md",
+    "BRANCH_AUDIT.md",
+    "CITATION.cff",
+    "AUTHOR_THANK_YOU.md",
+    "claims.json",
+    "reproduction_verdicts.json",
+    "EVIDENCE_MANIFEST.json",
+    "verify_final.py"
+  ],
   "old_repository": "icml26-repro-SOlPHMdSY3-finite-width-neural-tangent-kernels-from-feynman-diagrams",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
   "compute_policy": "Hugging Face cpu-upgrade with 8-CPU quota, 32 GB contract, and no GPU",
@@ -64,12 +81,12 @@
     "branch_count": 8,
     "descriptive_branch_count": 7,
     "old_orx_branches_present": false,
-    "reachable_commit_identity": "MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>",
+    "reachable_commit_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
     "github_description": "ICML 2026 scoped reproduction audit for Finite-Width Neural Tangent Kernels from Feynman Diagrams",
     "github_homepage": "https://arxiv.org/abs/2508.11522"
   },
   "attribution": {
     "name": "MachineLearning-Nerd",
-    "email": "37579156+MachineLearning-Nerd@users.noreply.github.com"
+    "email": "MachineLearning-Nerd@users.noreply.github.com"
   }
 }

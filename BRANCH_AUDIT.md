@@ -38,7 +38,7 @@ is an ancestor of <code>main</code>.
 
 Every reachable commit must use:
 
-<code>MachineLearning-Nerd &lt;37579156+MachineLearning-Nerd@users.noreply.github.com&gt;</code>
+<code>MachineLearning-Nerd &lt;MachineLearning-Nerd@users.noreply.github.com&gt;</code>
 
 Commit messages must not contain a <code>Co-authored-by:</code> trailer. The
 repository verifier checks both author and committer identities across all

@@ -46,10 +46,16 @@ The repository-level audit record is split into small, reviewable documents:
 - [BRANCH_AUDIT.md](BRANCH_AUDIT.md) records the final branch topology,
   former-to-clean names, exact tips, and attribution policy.
 - [claims.json](claims.json) is the machine-readable claim status ledger.
+- [reproduction_verdicts.json](reproduction_verdicts.json) records each claim's
+  status, production path, evidence, and scope boundary in machine-readable form.
 - [CITATION.cff](CITATION.cff) and [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md)
   provide citation metadata and the thank-you note to the paper authors.
 - [EVIDENCE_MANIFEST.json](EVIDENCE_MANIFEST.json) hashes the dossier and
   immutable evidence inputs.
+
+`publication_allowed` is `false` for a complete universal-paper reproduction or
+score. The five claims are verified only under the finite contracts recorded
+above; no author endorsement or current score is claimed.
 
 The canonical evaluator-visible evidence is under
 [space/](space/): its claim pages, raw JSON, source archive manifest, and
@@ -158,5 +164,5 @@ for readers to inspect.
 All approved repository commits are attributed to:
 
 ```text
-MachineLearning-Nerd <37579156+MachineLearning-Nerd@users.noreply.github.com>
+MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>
 ```
