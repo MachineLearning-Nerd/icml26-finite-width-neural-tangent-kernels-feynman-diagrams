@@ -10,6 +10,7 @@
   ],
   "phase": "published_and_verified",
   "next_action": "update_collection_trackers_and_continue_with_next_repository",
+  "last_checkpoint": "39c189503782f0529b395e0b9894d0dd507106d5",
   "claim_status": {
     "1": "verified_finite_rule_reconstruction",
     "2": "verified_five_diagram_certificate",
@@ -65,19 +66,25 @@
     "forecast": "8-10/10 only; not a judge result"
   },
   "publication_checkpoint": {
-    "pre_dossier_main": "a979bec40f514449150a117dc67f345349e154f5",
-    "dossier_commit": "bab44242e3d0f75bb6c605216ba3ab9a342e0480",
+    "pre_dossier_main": "256c5c59bc98163cffffe78e09a87ffb3f145eca",
+    "dossier_commit": "643900de7c85950a9c5c20158a2961506f6b28a5",
     "dossier_commit_message": "docs(audit): publish finite-width NTK dossier",
-    "state_commit": "b34905f9925c7f487723201f81313efba57d65b1",
-    "recovery_bundle_sha256": "c1d072b3ebd4c70e12d87d39103c4524df3f2a2d0df72f1c288e9e74f3aea141",
-    "local_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=13 before state update",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=15",
-    "fresh_clone_path": "/tmp/icml-ntk-final-state-verify.NF3sYJ"
+    "state_commit": "33374564620163855401b64cd99d100e1eb1739d",
+    "recovery_bundle_sha256": "bfcc8a6ca08fae6c9c12da6b298f71d23d038786c1f3987752aa364a6f896b63",
+    "local_verifier": "pending final clean-history verification",
+    "fresh_clone_verifier": "pending final clean-history verification",
+    "fresh_clone_path": "pending"
+  },
+  "history_normalization": {
+    "all_reachable_refs_rewritten": true,
+    "canonical_identity": "MachineLearning-Nerd <MachineLearning-Nerd@users.noreply.github.com>",
+    "coauthor_trailers_removed": true,
+    "recovery_bundle_sha256": "bfcc8a6ca08fae6c9c12da6b298f71d23d038786c1f3987752aa364a6f896b63"
   },
   "live_verification": {
     "repository_name": "icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
     "default_branch": "main",
-    "last_verified_main_commit": "b34905f9925c7f487723201f81313efba57d65b1",
+    "last_verified_main_commit": "39c189503782f0529b395e0b9894d0dd507106d5",
     "branch_count": 8,
     "descriptive_branch_count": 7,
     "old_orx_branches_present": false,
