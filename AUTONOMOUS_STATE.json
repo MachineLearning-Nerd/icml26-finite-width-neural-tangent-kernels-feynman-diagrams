@@ -71,9 +71,9 @@
     "dossier_commit_message": "docs(audit): publish finite-width NTK dossier",
     "state_commit": "1854945f52a3cac97b174003c63eab38b65e989e",
     "recovery_bundle_sha256": "bfcc8a6ca08fae6c9c12da6b298f71d23d038786c1f3987752aa364a6f896b63",
-    "local_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=18",
-    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=18",
-    "fresh_clone_path": "/tmp/icml26-ntk-final.kO9RXu"
+    "local_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=19",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=19",
+    "fresh_clone_path": "/tmp/icml26-ntk-final-final.vnUk5x"
   },
   "history_normalization": {
     "all_reachable_refs_rewritten": true,

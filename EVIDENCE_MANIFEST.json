@@ -28,7 +28,7 @@
     {"path": "SOURCE_AUDIT.md", "sha256": "31dc4f8f858d454a589d3135dbabd964514b99b2b791c4826613a071602854bb"},
     {"path": "claims.json", "sha256": "ac12b2b64b7772b8e9cdd651c38de2a4f183ecd472ca18b82774b69a362c7bd0"},
     {"path": "reproduction_verdicts.json", "sha256": "2cf4b61587b4d8cbcf3574414d7ecfb441e4d21ef5933634a3ef7eebd0f0e07f"},
-    {"path": "AUTONOMOUS_STATE.json", "sha256": "ab32b8eaaec76d436d935c4dfaa949690d4fcdd3d54fa742f17851dbd9eb735b"},
+    {"path": "AUTONOMOUS_STATE.json", "sha256": "b28570f52571ebc08f7d8b6e9e11839c3311dae5687fd45015be329240436e1f"},
     {"path": "verify_final.py", "sha256": "9d8ef2a081b8afeef3cb5fc2b75ca94506c0dcd4e968709127ded20bc8162174"},
     {"path": "reproduction/release_gate.py", "sha256": "30d05e62c4676b7a4b49766e2abe9aae601546bc09bf04679acdde834a574383"},
     {"path": "release/space_upload_allowlist.json", "sha256": "f6dd13c32382d48639d290ebe4e6b2e994e8257a2b57fca79204ee2d3ec00fd8"},
