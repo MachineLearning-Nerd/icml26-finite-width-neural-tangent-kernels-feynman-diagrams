@@ -10,7 +10,7 @@
   ],
   "phase": "published_and_verified",
   "next_action": "update_collection_trackers_and_continue_with_next_repository",
-  "last_checkpoint": "39c189503782f0529b395e0b9894d0dd507106d5",
+  "last_checkpoint": "1854945f52a3cac97b174003c63eab38b65e989e",
   "claim_status": {
     "1": "verified_finite_rule_reconstruction",
     "2": "verified_five_diagram_certificate",
@@ -69,11 +69,11 @@
     "pre_dossier_main": "256c5c59bc98163cffffe78e09a87ffb3f145eca",
     "dossier_commit": "643900de7c85950a9c5c20158a2961506f6b28a5",
     "dossier_commit_message": "docs(audit): publish finite-width NTK dossier",
-    "state_commit": "33374564620163855401b64cd99d100e1eb1739d",
+    "state_commit": "1854945f52a3cac97b174003c63eab38b65e989e",
     "recovery_bundle_sha256": "bfcc8a6ca08fae6c9c12da6b298f71d23d038786c1f3987752aa364a6f896b63",
-    "local_verifier": "pending final clean-history verification",
-    "fresh_clone_verifier": "pending final clean-history verification",
-    "fresh_clone_path": "pending"
+    "local_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=18",
+    "fresh_clone_verifier": "FINAL_AUDIT=VERIFIED branches=8 commits=18",
+    "fresh_clone_path": "/tmp/icml26-ntk-final.kO9RXu"
   },
   "history_normalization": {
     "all_reachable_refs_rewritten": true,
@@ -84,7 +84,7 @@
   "live_verification": {
     "repository_name": "icml26-finite-width-neural-tangent-kernels-feynman-diagrams",
     "default_branch": "main",
-    "last_verified_main_commit": "39c189503782f0529b395e0b9894d0dd507106d5",
+    "last_verified_main_commit": "1854945f52a3cac97b174003c63eab38b65e989e",
     "branch_count": 8,
     "descriptive_branch_count": 7,
     "old_orx_branches_present": false,
